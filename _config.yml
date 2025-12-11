@@ -1,10 +1,11 @@
-title: Rafe
+title: Rafe Sharif
 subtitle: A Portfolio Jekyll Theme Built for Developers
 description: >- # this means to ignore newlines until "baseurl:"
   devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
 
 url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
+email: rafe.sharif.moghaddam@gmail.com
 
 # Navigation
 urls:
@@ -14,10 +15,6 @@ urls:
       url: /about
     - text: Blog
       url: /blog
- #   - text: Gallery
- #     url: /gallery
- #   - text: Shop
- #     url : /shop
     - text: Contact
       url : /contact
 
@@ -26,7 +23,7 @@ urls:
 
 author_logo: profile.png
 author: Rafe Sharif
-author_bio: Hi, my name is Rafe Sharif. :D
+author_bio: Physics & CS Student. Exploring the intersection of theory, simulation and code.
 author_email: "rafe.sharif.moghaddam@gmail.com"
 author_location: India
 author_website_url: "https://sujaykundu.com"

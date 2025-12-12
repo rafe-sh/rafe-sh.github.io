@@ -1,7 +1,7 @@
 title: Rafe Sharif
 subtitle: A Portfolio Jekyll Theme Built for Developers
 description: >- # this means to ignore newlines until "baseurl:"
-  devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
+  Physics & CS Student | Scientific Computing | Machine Learning
 
 url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -15,6 +15,8 @@ urls:
       url: /about
     - text: Projects
       url: /projects
+    - text: Publications
+      url: /publications
     - text: Blog
       url: /blog
     - text: Contact
@@ -25,35 +27,33 @@ urls:
 
 author_logo: profile.png
 author: Rafe Sharif
-author_bio: Physics & CS Student. Exploring the intersection of theory, simulation and code.
+author_bio: B.Sc. Physics & CS Minor at AUT. Specializing in computational modeling, tensor methods, and data-driven astrophysics.
 author_email: "rafe.sharif.moghaddam@gmail.com"
-author_location: India
+author_location: Tehran, Iran
 author_website_url: "https://sujaykundu.com"
-typewrite-text: devlopr is a jekyll framework built for developers. You can edit this in _config.yml file
+typewrite-text: Physics & CS Student | Computational Astrophysics | Machine Learning
 hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
 author_work_experiences:
-            - company_name: Google
-              company_logo: google.png
-              company_url: https://google.com
-              designation: Software Engineer
-              description: Worked on various Google Products
+            - company_name: Amirkabir University of Technology
+              designation: Research Assistant (Astrophysics Lab)
+              description: Developed MST-GMM probabilistic workflows for star cluster membership inference using Gaia DR3 data.
               visibility: true
-            - company_name: Microsoft
-              company_logo: microsoft.png
-              company_url: https://microsoft.com
-              designation: Azure Developer
-              description: Worked on various Azure Cloud Products
+            - company_name: AUT (Math & CS Dept)
+              designation: Teaching Assistant
+              description: Numerical Linear Algebra (Prof. M. Dehghan). Instructing students in matrix computations and Python.
+              visibility: true
+            - company_name: Ikaf LLC
+              designation: Patent Drafter
+              description: Drafting patent applications in physics/engineering and conducting Freedom-to-Operate analyses.
               visibility: true
 
 # Education
 author_education_details:
-              - college_logo: mit.png
-                college_name: MIT
-                college_url: https://mit.org
-                college_degree: CS Engineer
-                description: Bachelor of Technology
+              - college_name: Amirkabir University of Technology
+                college_degree: B.Sc. in Physics (Minor in Computer Science)
+                description: "GPA: 3.82/4.00 (Physics) | 4.00/4.00 (CS Minor). Thesis: Open Star Clusters using Gaia Data."
                 visibility: true
 
 # Projects

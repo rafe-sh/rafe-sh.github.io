@@ -1,11 +1,11 @@
-title: Rafe Sharif
-subtitle: Academic Portfolio & Research Lab
+title: Your Name
+subtitle: Your Subtitle
 description: >-
-  Physics & CS Student | Scientific Computing | Machine Learning | Computational Astrophysics
+  Short description placeholder for your site.
 
 url: "https://rafe-sharif.github.io"
-baseurl: "/portfolio" # Set to repo name for Project Page deployment. Leave empty for User Page.
-email: rafe.sharif.moghaddam@gmail.com
+baseurl: "/portfolio" # Project page deployment for rafe-sharif/portfolio.
+email: you@example.com
 
 # Navigation
 urls:
@@ -25,51 +25,33 @@ urls:
 
 # Edit Author details
 author_logo: profile.png
-author: Rafe Sharif
-author_bio: B.Sc. Physics & CS Minor at AUT. Specializing in computational modeling, tensor methods, and data-driven astrophysics.
-author_email: "rafe.sharif.moghaddam@gmail.com"
-author_location: Tehran, Iran
-author_website_url: "https://rafe-sharif.github.io"
-typewrite-text: Physics & CS Student | Computational Astrophysics | Machine Learning
-hero_cover_img: sample_cover.jpg # Keep sample until user replaces
+author: Your Name
+author_bio: Short bio placeholder. Replace with your own summary.
+author_email: "you@example.com"
+author_location: Your Location
+author_website_url: "https://your-website.example"
+typewrite-text: Tagline placeholder text
+hero_cover_img: sample_cover.jpg # Replace with your own hero image.
 
 # Experiences
 author_work_experiences:
-            - company_name: Amirkabir University of Technology
-              designation: Research Assistant (Astrophysics Lab)
-              description: Developed MST-GMM probabilistic workflows for star cluster membership inference using Gaia DR3 data.
-              visibility: true
-            - company_name: AUT (Math & CS Dept)
-              designation: Teaching Assistant
-              description: Numerical Linear Algebra (Prof. M. Dehghan). Instructing students in matrix computations and Python.
-              visibility: true
-            - company_name: Ikaf LLC
-              designation: Patent Drafter
-              description: Drafting patent applications in physics/engineering and conducting Freedom-to-Operate analyses.
+            - company_name: Company Name
+              designation: Role Title
+              description: Work experience description placeholder.
               visibility: true
 
 # Education
 author_education_details:
-              - college_name: Amirkabir University of Technology
-                college_degree: B.Sc. in Physics (Minor in Computer Science)
-                description: "GPA: 3.82/4.00 (Physics) | 4.00/4.00 (CS Minor). Thesis: Open Star Clusters using Gaia Data."
+              - college_name: University Name
+                college_degree: Degree Title
+                description: Education description placeholder.
                 visibility: true
 
 # Projects (Updated from projects.md content)
 author_project_details:
-              - project_thumbnail: gamershub.png # Update with real asset later
-                project_title: MST-GMM Star Cluster Classifier
-                project_description: Probabilistic membership inference using Minimum Spanning Trees and Gaussian Mixture Models on Gaia DR3 data.
-                project_url: /projects
-                visibility: true
-              - project_thumbnail: hack4r.PNG # Update with real asset later
-                project_title: Supernova Tracing in Collinder 69
-                project_description: Kinematic analysis of the Lambda Orionis region to detect historical supernova signatures.
-                project_url: /projects
-                visibility: true
               - project_thumbnail: sample_cover.jpg
-                project_title: Tensor Linear Solvers
-                project_description: High-dimensional tensor linear system solvers using Einstein summation notation.
+                project_title: Project Title
+                project_description: Project description placeholder.
                 project_url: /projects
                 visibility: true
 
@@ -86,10 +68,10 @@ author_project_details:
 # mailchimp_form_url:
 
 # contact form
-formspree_email: rafe.sharif.moghaddam@gmail.com
+formspree_email: you@example.com
 
 # releases - widget can be (sidebar, modal or embed)
-olvy_organization: devlopr
+olvy_organization: ""
 olvy_widget_type: sidebar
 
 # syntax highlighter

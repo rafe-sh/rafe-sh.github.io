@@ -4,7 +4,7 @@ description: >-
   Physics & CS Student | Scientific Computing | Machine Learning | Computational Astrophysics
 
 url: "https://rafe-sharif.github.io"
-baseurl: "/portfolio" # Set to repo name for Project Page deployment. Leave empty for User Page.
+baseurl: "/portfolio" # Project page deployment for rafe-sharif/portfolio.
 email: rafe.sharif.moghaddam@gmail.com
 
 # Navigation

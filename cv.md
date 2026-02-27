@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Curriculum Vitae
+title: CV
 permalink: /cv/
 ---
 
@@ -14,17 +14,17 @@ permalink: /cv/
 **B.Sc. Physics (Minor in Computer Science)**  
 *2021 - 2025 (Expected)*
 
-- GPA (Physics): 3.82/4.00
-- GPA (CS Minor): 4.00/4.00
-- Thesis: Open Star Cluster Analysis using Gaia DR3 Data
+- **GPA (Physics):** 3.82/4.00
+- **GPA (CS Minor):** 4.00/4.00
+- **Thesis:** Open Star Cluster Analysis using Gaia DR3 Data
 
 ---
 
 ## Research Experience
 
 ### Research Assistant - Astrophysics Lab
-**Amirkabir University of Technology**  
-*2023 - Present*
+**Amirkabir  
+*2023 University of Technology** - Present*
 
 - Developed MST-GMM probabilistic workflows for star cluster membership inference using Gaia DR3 data
 - Analyzed large-scale astronomical catalogs for kinematic signatures
@@ -45,7 +45,8 @@ permalink: /cv/
 
 ### Under Review
 **Rafe Sharif**, M. Khakian Ghomi, M. Taefi.  
-*"A Sequential Approach to Identifying Open Star Cluster Members in Gaia DR3: Integrating MST and GMM Techniques."* (Submitted, 2025)
+*"A Sequential Approach to Identifying Open Star Cluster Members in Gaia DR3: Integrating MST and GMM Techniques."*  
+*Submitted, 2025*
 
 ### In Preparation
 **Rafe Sharif**, M. Taefi, M. Khakian Ghomi.  
@@ -53,11 +54,24 @@ permalink: /cv/
 
 ---
 
+## Conference Presentations
+
+- **Oral Presentation:** *"Large-Scale Scientific Data Analysis of Star Clusters"*  
+  27th Iranian Astronomy Research Meeting (IASBS), May 2025
+
+- **Poster Presentation:** *"Probabilistic Membership of Open Clusters with MST-GMM"*  
+  27th Iranian Astronomy Research Meeting (IASBS), May 2025
+
+---
+
 ## Selected Projects
 
-- **MST-GMM Star Cluster Classifier** - Probabilistic membership inference using Minimum Spanning Trees and Gaussian Mixture Models
-- **Supernova Tracing in Collinder 69** - Kinematic analysis of Lambda Orionis region
-- **Tensor Linear Solvers** - High-dimensional solvers using Einstein summation notation
+| Project | Description |
+|---------|-------------|
+| **MST-GMM Star Cluster Classifier** | Probabilistic membership inference using Minimum Spanning Trees and Gaussian Mixture Models |
+| **Supernova Tracing in Collinder 69** | Kinematic analysis of Lambda Orionis region |
+| **Tensor Linear Solvers** | High-dimensional solvers using Einstein summation notation |
+| **Deep Learning Suite (MNIST)** | GANs and Autoencoders for digit synthesis |
 
 ---
 
@@ -69,13 +83,9 @@ permalink: /cv/
 
 ---
 
-## Download CV
+## Contact
 
-<div class="alert alert-info">
-  <strong>Note:</strong> Please contact me to request a PDF copy of my CV.
-  <br><br>
-  <a href="mailto:rafe.sharif.moghaddam@gmail.com" class="btn btn-primary">Request CV</a>
-</div>
+**Email:** [rafe.sharif.moghaddam@gmail.com](mailto:rafe.sharif.moghaddam@gmail.com)
 
 ---
 

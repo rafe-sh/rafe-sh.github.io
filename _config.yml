@@ -4,24 +4,22 @@ description: >
   B.Sc. Physics & CS Minor | Computational Astrophysics | Scientific Computing
   Amirkabir University of Technology
 
-url: "https://rafe-sharif.github.io"
+url: "https://rafe-sh.github.io"
 baseurl: ""
 email: rafe.sharif.moghaddam@gmail.com
 
-# Navigation - Academic pages only
+# Navigation - Single page with anchors
 urls:
     - text: Home
       url: /
     - text: About
-      url: /about
-    - text: Publications
-      url: /publications
+      url: /#about
     - text: Projects
-      url: /projects
-    - text: CV
-      url: /cv
+      url: /#projects
+    - text: Publications
+      url: /#publications
     - text: Contact
-      url: /contact
+      url: /#contact
 
 # Author Details
 author_logo: profile.png
@@ -29,70 +27,22 @@ author: Rafe Sharif
 author_bio: B.Sc. Physics & CS Minor at AUT | Computational Astrophysics | Scientific Computing
 author_email: "rafe.sharif.moghaddam@gmail.com"
 author_location: Tehran, Iran
-author_website_url: "https://rafe-sharif.github.io"
-
-# Work Experience
-author_work_experiences:
-    - company_name: Amirkabir University of Technology
-      designation: Research Assistant - Astrophysics Lab
-      description: Developed MST-GMM probabilistic workflows for star cluster membership inference using Gaia DR3 data.
-      visibility: true
-    - company_name: Amirkabir University of Technology
-      designation: Teaching Assistant - Numerical Linear Algebra (MA332)
-      description: Fall 2024. Instructed students in matrix computations and Python under Prof. M. Dehghan.
-      visibility: true
-
-# Education
-author_education_details:
-    - college_name: Amirkabir University of Technology (Tehran Polytechnic)
-      college_url: https://aut.ac.ir/en
-      college_degree: B.Sc. Physics (Minor in Computer Science)
-      description: "GPA: 3.82/4.00 (Physics) | 4.00/4.00 (CS Minor)"
-      visibility: true
+author_website_url: "https://rafe-sh.github.io"
 
 # Social Links
-twitter_username: rafe_sharif
 github_username: rafe-sharif
 linkedin_username: rafe-sharif
+twitter_username: rafe_sharif
 
-# Contact
-formspree_email: rafe.sharif.moghaddam@gmail.com
-
-# Build Settings
+# Build Settings - Keep minimal for single HTML file
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
 
-# Show sections
-show_author_work_experiences: true
-show_author_education_details: true
-show_author_project_details: false
-
-# Collections
-collections:
-  authors:
-    output: true
-
-defaults:
-  -
-    scope:
-      path: ""
-      type: authors
-    values:
-      layout: author
-      permalink: /blog/authors/:slug/
-
 # Plugins
 plugins:
-  - jekyll-paginate
-  - jekyll-gist
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-feed
-
-sass:
-  sass_dir: _sass
-  style: compressed
 
 exclude:
   - .sass-cache/
@@ -115,6 +65,17 @@ exclude:
   - .gitignore
   - .ruby-version
   - devlopr.gemspec
-  - 404.md
   - feed.xml
   - _backup_content/
+  - _posts/
+  - _products/
+  - _authors/
+  - _data/
+  - _layouts/
+  - _includes/
+  - _sass/
+  - about.md
+  - projects.md
+  - publications.md
+  - cv.md
+  - contact.md

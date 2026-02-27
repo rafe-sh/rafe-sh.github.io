@@ -1,124 +1,79 @@
 title: Rafe Sharif
-subtitle: Academic Portfolio & Research Lab
-description: >-
-  Physics & CS Student | Scientific Computing | Machine Learning | Computational Astrophysics
+subtitle: Academic Portfolio
+description: >
+  B.Sc. Physics & CS Minor | Computational Astrophysics | Scientific Computing
+  Amirkabir University of Technology
 
 url: "https://rafe-sharif.github.io"
-baseurl: "/portfolio" # Project page deployment for rafe-sharif/portfolio.
+baseurl: ""
 email: rafe.sharif.moghaddam@gmail.com
 
-# Navigation
+# Navigation - Academic pages only
 urls:
     - text: Home
       url: /
     - text: About
       url: /about
-    - text: Projects
-      url: /projects
     - text: Publications
       url: /publications
-    - text: Blog
-      url: /blog
+    - text: Projects
+      url: /projects
+    - text: CV
+      url: /cv
     - text: Contact
-      url : /contact
+      url: /contact
 
-
-# Edit Author details
+# Author Details
 author_logo: profile.png
 author: Rafe Sharif
-author_bio: B.Sc. Physics & CS Minor at AUT. Specializing in computational modeling, tensor methods, and data-driven astrophysics.
+author_bio: B.Sc. Physics & CS Minor at AUT | Computational Astrophysics | Scientific Computing
 author_email: "rafe.sharif.moghaddam@gmail.com"
 author_location: Tehran, Iran
 author_website_url: "https://rafe-sharif.github.io"
-typewrite-text: Physics & CS Student | Computational Astrophysics | Machine Learning
-hero_cover_img: sample_cover.jpg # Keep sample until user replaces
 
-# Experiences
+# Work Experience
 author_work_experiences:
-            - company_name: Amirkabir University of Technology
-              designation: Research Assistant (Astrophysics Lab)
-              description: Developed MST-GMM probabilistic workflows for star cluster membership inference using Gaia DR3 data.
-              visibility: true
-            - company_name: Amirkabir University of Technology (Math & CS Dept)
-              designation: Teaching Assistant | Numerical Linear Algebra (MA332)
-              description: Fall 2024 (Past). Instructing students in matrix computations and Python under Prof. M. Dehghan.
-              visibility: true
-            - company_name: Ikaf LLC
-              designation: Patent Drafter
-              description: Drafting patent applications in physics/engineering and conducting Freedom-to-Operate analyses.
-              visibility: true
+    - company_name: Amirkabir University of Technology
+      designation: Research Assistant - Astrophysics Lab
+      description: Developed MST-GMM probabilistic workflows for star cluster membership inference using Gaia DR3 data.
+      visibility: true
+    - company_name: Amirkabir University of Technology
+      designation: Teaching Assistant - Numerical Linear Algebra (MA332)
+      description: Fall 2024. Instructed students in matrix computations and Python under Prof. M. Dehghan.
+      visibility: true
 
 # Education
 author_education_details:
-              - college_name: Amirkabir University of Technology
-                college_degree: B.Sc. in Physics (Minor in Computer Science)
-                description: "GPA: 3.82/4.00 (Physics) | 4.00/4.00 (CS Minor). Thesis: Open Star Clusters using Gaia Data."
-                visibility: true
+    - college_name: Amirkabir University of Technology (Tehran Polytechnic)
+      college_url: https://aut.ac.ir/en
+      college_degree: B.Sc. Physics (Minor in Computer Science)
+      description: "GPA: 3.82/4.00 (Physics) | 4.00/4.00 (CS Minor)"
+      visibility: true
 
-# Projects (Updated from projects.md content)
-author_project_details:
-              - project_thumbnail: gamershub.png # Update with real asset later
-                project_title: MST-GMM Star Cluster Classifier
-                project_description: Probabilistic membership inference using Minimum Spanning Trees and Gaussian Mixture Models on Gaia DR3 data.
-                project_url: /projects
-                visibility: true
-              - project_thumbnail: hack4r.PNG # Update with real asset later
-                project_title: Supernova Tracing in Collinder 69
-                project_description: Kinematic analysis of the Lambda Orionis region to detect historical supernova signatures.
-                project_url: /projects
-                visibility: true
-              - project_thumbnail: sample_cover.jpg
-                project_title: Tensor Linear Solvers
-                project_description: High-dimensional tensor linear system solvers using Einstein summation notation.
-                project_url: /projects
-                visibility: true
-
-# social links
+# Social Links
 twitter_username: rafe_sharif
 github_username: rafe-sharif
 linkedin_username: rafe-sharif
-googlescholar_username: # Add Google Scholar ID if known
 
-# wakatime username (coding activity)
-# wakatime_username:
-
-# mailchimp embedded form url (newsletter) - Commented out to avoid generic errors
-# mailchimp_form_url:
-
-# contact form
+# Contact
 formspree_email: rafe.sharif.moghaddam@gmail.com
 
-# releases - widget can be (sidebar, modal or embed)
-olvy_organization: ""
-olvy_widget_type: sidebar
-
-# syntax highlighter
+# Build Settings
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
 
-# Choose what to show ( can be true or false)
+# Show sections
 show_author_work_experiences: true
 show_author_education_details: true
-show_author_project_details: true
+show_author_project_details: false
 
-# pagination of posts
-paginate: 4
-per_page: 4
-paginate_path: "/blog/page/:num/"
-
+# Collections
 collections:
-  products:
-    output: true
   authors:
     output: true
 
 defaults:
-  -
-    scope:
-      path: "gallery"
-    values:
-      permalink: /:path/:basename:output_ext
   -
     scope:
       path: ""
@@ -126,13 +81,8 @@ defaults:
     values:
       layout: author
       permalink: /blog/authors/:slug/
-  -
-    scope:
-      path: 'assets/**'
-    values:
-      sitemap: false
 
-# Build settings
+# Plugins
 plugins:
   - jekyll-paginate
   - jekyll-gist
@@ -151,35 +101,20 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules/
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-  - assets/bower_components/isotope-layout/README.md
-  - assets/bower_components/icono/README.md
-  - assets/bower_components/font-awesome/advanced-options/use-with-node-js/fontawesome-svg-core/README.md
-  - assets/bower_components/ghosthunter/README.md
-  - assets/bower_components/nanobar/README.md
-  - assets/bower_components/lightgallery/demo/README.md
-  - assets/bower_components/font-awesome/advanced-options/use-with-node-js/free-brands-svg-icons/README.md
-  - assets/bower_components/font-awesome/advanced-options/use-with-node-js/free-solid-svg-icons/README.md
-  - assets/bower_components/jquery-mousewheel/README.md
-  - assets/bower_components/get-size/README.md
-  - assets/bower_components/font-awesome/advanced-options/use-with-node-js/fontawesome/README.md
-  - assets/bower_components/jquery-mousewheel/ChangeLog/README.md
-  - assets/bower_components/font-awesome/advanced-options/use-with-node-js/fontawesome-free-regular/README.md
-  - assets/bower_components/desandro-matches-selector/README.md
-  - assets/bower_components/ev-emitter/README.md
-  - assets/bower_components/font-awesome/README.md
-  - assets/bower_components/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/README.md
-  - assets/bower_components/font-awesome/advanced-options/use-with-node-js/fontawesome-free/README.md
-  - assets/bower_components/font-awesome/advanced-options/use-with-node-js/fontawesome-free-webfonts/README.md
-  - assets/bower_components/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/README.md
-  - assets/bower_components/font-awesome/advanced-options/use-with-node-js/fontawesome-common-types/README.md
-  - assets/bower_components/ghosthunter/example/Index.html
-  - assets/bower_components/lightgallery/test/lightgallery.html
-  - assets/bower_components/masonry-layout/README.md
-  - assets/bower_components/imagesloaded/README.md
-
-
-destination: ./build
+  - vendor/
+  - assets/bower_components/
+  - README.md
+  - CODE_OF_CONDUCT.md
+  - CONTRIBUTING.md
+  - SECURITY.md
+  - LICENSE
+  - .all-contributorsrc
+  - .buildconfig
+  - .firebaserc
+  - .github/
+  - .gitignore
+  - .ruby-version
+  - devlopr.gemspec
+  - 404.md
+  - feed.xml
+  - _backup_content/

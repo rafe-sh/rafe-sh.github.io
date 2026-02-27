@@ -2,15 +2,56 @@
 layout: full-width
 ---
 
-<script>
-  $(document).ready(function() {
-    $("#typewriteText").typewrite({
-      actions: [{ type: "{{site.typewrite-text}}" }]
-    });
-  });
-</script>
-    <!-- hero section-->
-    {%- include hero.html -%}
-    <div class="col-lg-8 offset-md-2">
-      {%- include recent_articles.html -%}
+<!-- Hero Section -->
+{%- include hero.html -%}
+
+<!-- About Section -->
+<section class="container mt-5">
+  <div class="row">
+    <div class="col-lg-8 offset-lg-2">
+      <h2>About Me</h2>
+      <p class="lead">
+        I am a final-year B.Sc. student in Physics (Minor in Computer Science) at Amirkabir University of Technology.
+        My research focuses on Scientific Computing and Machine Learning applied to complex physical systems.
+      </p>
+      <p>
+        I work at the intersection of data and theory—ranging from probabilistic modeling of stellar populations (Gaia DR3) 
+        to computational neuroscience and tensor methods for quantum systems.
+      </p>
+      <a href="/about" class="btn btn-outline-primary">Learn More About Me</a>
     </div>
+  </div>
+</section>
+
+<!-- Quick Links -->
+<section class="container mt-5 mb-5">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Publications</h5>
+          <p class="card-text">View my research papers and conference presentations.</p>
+          <a href="/publications" class="btn btn-sm btn-primary">View Publications</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Projects</h5>
+          <p class="card-text">Explore my research projects and code repositories.</p>
+          <a href="/projects" class="btn btn-sm btn-primary">View Projects</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">CV</h5>
+          <p class="card-text">Download my curriculum vitae.</p>
+          <a href="/cv" class="btn btn-sm btn-primary">View CV</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
